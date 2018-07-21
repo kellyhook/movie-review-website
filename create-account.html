@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>The Unecessary Squirrels' Movie App</title>
+  <!-- bootstrap link -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <!-- reset link -->
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+  <!-- css link -->
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <!-- Google fonts link -->
+  <link href="https://fonts.googleapis.com/css?family=Carrois+Gothic+SC" rel="stylesheet">
+
+
+
+  <!-- form style -->
+  <style>
+    .form-signin {
+      width: 100%;
+      max-width: 330px;
+      padding: 15px;
+      margin: auto;
+      text-align: center;
+      ;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+        <a class="navbar-brand" href="index.html">Home</a>
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+          <li>
+            <a href="#" class="nowPlaying">Now Playing</a>
+          </li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Genres
+                            <span class="caret"></span>
+                        </a>
+            <ul class="dropdown-menu">
+              <li>
+                <a href="#" class="action" id="action">Action</a>
+              </li>
+              <li>
+                <a href="#" class="animation" id="animation">Animation</a>
+              </li>
+              <li>
+                <a href="#" class="comedy" id="comedy">Comedy</a>
+              </li>
+              <li>
+                <a href="#" class="drama" id="drama">Drama</a>
+              </li>
+              <li>
+                <a href="#" class="family" id="family">Family</a>
+              </li>
+              <li>
+                <a href="#" class="fantasy" id="fantasy">Fantasy</a>
+              </li>
+              <li>
+                <a href="#" class="music" id="music">Music</a>
+              </li>
+              <li>
+                <a href="#" class="romance" id="romance">Romance</a>
+              </li>
+              <li>
+                <a href="#" class="scifi" id="scifi">Science Fiction</a>
+              </li>
+              <li>
+                <a href="#" class="thriller" id="thriller">Thriller</a>
+              </li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+              <form class="navbar-form navbar-right searchForm">
+                <div class="form-group">
+                  <input type="text" class="form-control" placeholder="Search movies">
+                </div>
+                <button type="submit" class="btn btn-default">Submit</button>
+              </form>
+            </ul>
+      </div>
+      <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container-fluid -->
+  </nav>
+
+
+  <!--End of Navigation  -->
+
+  <!-- Main Page content -->
+  <div class="container">
+
+    <form class="form-signin" action="/signUp" method="post" role="form">
+      <h1 class="h3 mb-3 font-weight-normal">Create account</h1>
+      <lable for="inputNickname" class="sr-only">Nickname</lable>
+      <input type="text" id="inputNickname" class="form-control" placeholder="Nickname">
+      <lable for="inputEmail" class="sr-only">Email address</lable>
+      <input type="email" id="inputEmail" class="form-control" placeholder="Email address">
+      <lable for="inputPassword" class="sr-only">Password</lable>
+      <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+      <button class="btn btn-lg btn-primary btn-block" type="submit">Create account</button>
+      <br>
+      <p class="mt-5 mb-3 text-muted">&copy 2018</p>
+    </form>
+  </div>
+  <!-- End of main page content -->
+
+
+
+
+
+
+  <!-- JQUERY -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+  <script type="text/javascript" src="assets/javascript/app.js">
+  </script>
+</body>
+
+</html>
